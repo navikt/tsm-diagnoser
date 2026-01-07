@@ -7,9 +7,10 @@ import { readFile } from 'node:fs/promises'
 import * as R from 'remeda'
 import { isBefore } from 'date-fns'
 
-const today = new Date()
+import { generateKotlinDiagnosis } from './outputs/kotlin.ts'
+import { writeNodeDiagnosisJson } from './outputs/node.ts'
 
-const OUTPUT_PATHS = ['libs/node/src/data']
+const today = new Date()
 
 async function parseICPC2(): Promise<void> {
     console.info('Parsing ICPC-2(B) kodeverk')
@@ -46,6 +47,9 @@ async function parseICPC2(): Promise<void> {
         })),
     )
 
+    writeNodeDiagnosisJson('ICPC2', icpc2)
+    generateKotlinDiagnosis('ICPC2', icpc2)
+
     const icpc2b = R.pipe(
         rawIcpc2 as KoteEntry[],
         R.groupBy((it) => it.Kodeverk),
@@ -62,15 +66,8 @@ async function parseICPC2(): Promise<void> {
         })),
     )
 
-    for (const path of OUTPUT_PATHS) {
-        const icpc2path = join(path, 'icpc2.json')
-        console.log(`    ↳ Writing ${icpc2.length} ICPC-2 codes to ${icpc2path}`)
-        writeFileSync(icpc2path, JSON.stringify(icpc2, null, 2), 'utf-8')
-
-        const icpc2bPath = join(path, 'icpc2b.json')
-        console.log(`    ↳ Writing ${icpc2b.length} ICPC-2B codes to ${icpc2bPath}`)
-        writeFileSync(icpc2bPath, JSON.stringify(icpc2b, null, 2), 'utf-8')
-    }
+    writeNodeDiagnosisJson('ICPC2B', icpc2b)
+    generateKotlinDiagnosis('ICPC2B', icpc2b)
 }
 
 async function parseICD10(): Promise<void> {
@@ -82,8 +79,6 @@ async function parseICD10(): Promise<void> {
             process.exit(1)
         })
         .then(JSON.parse)
-
-    const OUTPUT_PATH_ICD10 = join('src', 'data', 'icd10.json')
 
     type KoteEntry = {
         Kode: string
@@ -113,11 +108,8 @@ async function parseICD10(): Promise<void> {
         })),
     )
 
-    for (const path of OUTPUT_PATHS) {
-        const icd10Path = join(path, 'icd10.json')
-        console.log(`    ↳ Writing ${icd10.length} ICD-10 codes to ${icd10Path}`)
-        writeFileSync(icd10Path, JSON.stringify(icd10, null, 2), 'utf-8')
-    }
+    writeNodeDiagnosisJson('ICD10', icd10)
+    generateKotlinDiagnosis('ICD10', icd10)
 }
 
 await parseICD10()

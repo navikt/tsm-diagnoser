@@ -3,5 +3,6 @@
         "target": "ES2022",
         "module": "NodeNext",
         "strict": true,
-    },
+        "allowImportingTsExtensions": true
+    }
 }

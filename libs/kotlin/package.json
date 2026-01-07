@@ -1,4 +1,7 @@
 {
     "name": "kotlin",
-    "private": true
+    "private": true,
+    "scripts": {
+        "build": "./gradlew build"
+    }
 }
