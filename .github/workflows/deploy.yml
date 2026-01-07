@@ -1,0 +1,31 @@
+name: Build and publish library
+
+on: push
+
+permissions:
+  actions: read
+  contents: write
+  packages: write
+  id-token: write
+
+jobs:
+  build:
+    if: startsWith(github.event.head_commit.message, 'docs:') == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: navikt/tsm-workflows/actions/yarn@main
+        with:
+          READER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: yarn build
+      - run: libs/node/scripts/meta.mjs libs/node >> $GITHUB_STEP_SUMMARY
+
+      - run: |
+          TEMP_VERSION=$(date +'%Y%m%d%H%M%S')
+          jq --arg v "2026.1.0-$TEMP_VERSION" '.version = $v' libs/node/package.json > libs/node/package.tmp.json && mv libs/node/package.tmp.json libs/node/package.json
+
+      - name: Publish @navikt/tsm-diagnoser (node)
+        # if: github.ref == 'refs/heads/main'
+        run: yarn npm publish --tag=beta
+        working-directory: libs/node
