@@ -5,6 +5,18 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@navikt/tsm-diagnoser@workspace:libs/node":
+  version: 0.0.0-use.local
+  resolution: "@navikt/tsm-diagnoser@workspace:libs/node"
+  languageName: unknown
+  linkType: soft
+
+"kotlin@workspace:libs/kotlin":
+  version: 0.0.0-use.local
+  resolution: "kotlin@workspace:libs/kotlin"
+  languageName: unknown
+  linkType: soft
+
 "tsm-diagnoser@workspace:.":
   version: 0.0.0-use.local
   resolution: "tsm-diagnoser@workspace:."
