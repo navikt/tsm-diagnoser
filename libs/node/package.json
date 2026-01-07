@@ -1,3 +1,30 @@
 {
-  "name": "@navikt/tsm-diagnoser"
+    "name": "@navikt/tsm-diagnoser",
+    "version": "2026.1",
+    "type": "module",
+    "scripts": {
+        "build": "tsup"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        },
+        "./ICD10": {
+            "import": "./dist/icd10.js",
+            "types": "./dist/icd10.d.ts"
+        },
+        "./ICPC2": {
+            "import": "./dist/icpc2.js",
+            "types": "./dist/icpc2.d.ts"
+        },
+        "./ICPC2B": {
+            "import": "./dist/icpc2b.js",
+            "types": "./dist/icpc2b.d.ts"
+        }
+    },
+    "devDependencies": {
+        "tsup": "^8.5.1",
+        "typescript": "^5.9.3"
+    }
 }
