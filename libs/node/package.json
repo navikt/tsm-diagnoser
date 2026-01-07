@@ -10,6 +10,10 @@
         "access": "public",
         "registry": "https://npm.pkg.github.com/"
     },
+    "files": [
+        "package.json",
+        "dist"
+    ],
     "scripts": {
         "build": "tsup"
     },
