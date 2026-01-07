@@ -11,14 +11,68 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@navikt/tsm-prettier@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@navikt/tsm-prettier@npm:2.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Ftsm-prettier%2F2.0.0%2F48f457e5234d4a13586c9d61512891eeca06a383"
+  peerDependencies:
+    prettier: ">= 3"
+  checksum: 10c0/71e4ecc66a87ed05d58615e0b79ceff0cb8dbffdbbe65e59c6ab863be994a3e034e4e94836c487cd1cd4365afe26ab1e198117773bf3c9b09f6d2c33d0b2a862
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:24":
+  version: 24.10.4
+  resolution: "@types/node@npm:24.10.4"
+  dependencies:
+    undici-types: "npm:~7.16.0"
+  checksum: 10c0/069639cb7233ee747df1897b5e784f6b6c5da765c96c94773c580aac888fa1a585048d2a6e95eb8302d89c7a9df75801c8b5a0b7d0221d4249059cf09a5f4228
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "date-fns@npm:4.1.0"
+  checksum: 10c0/b79ff32830e6b7faa009590af6ae0fb8c3fd9ffad46d930548fbb5acf473773b4712ae887e156ba91a7b3dc30591ce0f517d69fd83bd9c38650fdc03b4e0bac8
+  languageName: node
+  linkType: hard
+
 "kotlin@workspace:libs/kotlin":
   version: 0.0.0-use.local
   resolution: "kotlin@workspace:libs/kotlin"
   languageName: unknown
   linkType: soft
 
+"prettier@npm:^3.7.4":
+  version: 3.7.4
+  resolution: "prettier@npm:3.7.4"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/9675d2cd08eacb1faf1d1a2dbfe24bfab6a912b059fc9defdb380a408893d88213e794a40a2700bd29b140eb3172e0b07c852853f6e22f16f3374659a1a13389
+  languageName: node
+  linkType: hard
+
+"remeda@npm:^2.33.1":
+  version: 2.33.1
+  resolution: "remeda@npm:2.33.1"
+  checksum: 10c0/60c624ef8208f3ab38548b715033738534089f2edaf48c36b9ae7d51b1ffb7d2836a53f2c994a0f76c132753d91524d73ec368aef323a15c05075e9cfdfe71da
+  languageName: node
+  linkType: hard
+
 "tsm-diagnoser@workspace:.":
   version: 0.0.0-use.local
   resolution: "tsm-diagnoser@workspace:."
+  dependencies:
+    "@navikt/tsm-prettier": "npm:^2.0.0"
+    "@types/node": "npm:24"
+    date-fns: "npm:^4.1.0"
+    prettier: "npm:^3.7.4"
+    remeda: "npm:^2.33.1"
   languageName: unknown
   linkType: soft
+
+"undici-types@npm:~7.16.0":
+  version: 7.16.0
+  resolution: "undici-types@npm:7.16.0"
+  checksum: 10c0/3033e2f2b5c9f1504bdc5934646cb54e37ecaca0f9249c983f7b1fc2e87c6d18399ebb05dc7fd5419e02b2e915f734d872a65da2e3eeed1813951c427d33cc9a
+  languageName: node
+  linkType: hard

@@ -1,9 +1,24 @@
 {
-  "name": "tsm-diagnoser",
-  "private": true,
-  "packageManager": "yarn@4.12.0",
-  "workspaces": [
-    "libs/node",
-    "libs/kotlin"
-  ]
+    "name": "tsm-diagnoser",
+    "private": true,
+    "type": "module",
+    "packageManager": "yarn@4.12.0",
+    "workspaces": [
+        "libs/node",
+        "libs/kotlin"
+    ],
+    "scripts": {
+        "kote:format": "prettier --write ./src/data/*.json",
+        "kote:parse": "node ./scripts/parse-kodeverk.ts",
+        "kote:get": "node ./scripts/fetch-kodeverk.ts",
+        "kote": "yarn kote:get && yarn kote:parse && yarn kote:format"
+    },
+    "devDependencies": {
+        "@navikt/tsm-prettier": "^2.0.0",
+        "@types/node": "24",
+        "date-fns": "^4.1.0",
+        "prettier": "^3.7.4",
+        "remeda": "^2.33.1"
+    },
+    "prettier": "@navikt/tsm-prettier"
 }
