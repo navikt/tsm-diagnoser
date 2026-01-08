@@ -11,4 +11,3 @@ data class Diagnose(
   val code: String,
   val text: String
 )
-

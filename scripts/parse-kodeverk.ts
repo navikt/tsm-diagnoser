@@ -1,14 +1,12 @@
 /* eslint-disable no-console */
 
-import { join } from 'path'
-import { writeFileSync } from 'fs'
 import { readFile } from 'node:fs/promises'
 
 import * as R from 'remeda'
 import { isBefore } from 'date-fns'
 
-import { generateKotlinDiagnosis } from './outputs/kotlin.ts'
-import { writeNodeDiagnosisJson } from './outputs/node.ts'
+import { writeNodeJson } from './outputs/node.ts'
+import { writeKotlinCsv } from './outputs/kotlin.ts'
 
 const today = new Date()
 
@@ -41,14 +39,14 @@ async function parseICPC2(): Promise<void> {
         R.filter((it) => it['Tilhørighet_i_ICPC_2B'] === 'ICPC-2'),
         R.filter((it) => it['Gyldig_til'] == null || !isBefore(it['Gyldig_til'], today)),
         R.map((it) => ({
+            system: 'ICPC2',
             code: it.Foreldrekode,
             text: it.Foreldrekodetekst,
-            system: 'ICPC2',
         })),
     )
 
-    writeNodeDiagnosisJson('ICPC2', icpc2)
-    generateKotlinDiagnosis('ICPC2', icpc2)
+    writeNodeJson('ICPC2', icpc2)
+    writeKotlinCsv('ICPC2', icpc2)
 
     const icpc2b = R.pipe(
         rawIcpc2 as KoteEntry[],
@@ -58,16 +56,16 @@ async function parseICPC2(): Promise<void> {
         R.filter((it) => it['Tilhørighet_i_ICPC_2B'] === 'TERM'),
         R.filter((it) => it['Gyldig_til'] == null || !isBefore(it['Gyldig_til'], today)),
         R.map((it) => ({
+            system: 'ICPC2B',
             code: it.Kode,
             text: it.Tekst_uten_lengdebegrensning,
             parent_code: it.Foreldrekode,
             parent_text: it.Foreldrekodetekst,
-            system: 'ICPC2B',
         })),
     )
 
-    writeNodeDiagnosisJson('ICPC2B', icpc2b)
-    generateKotlinDiagnosis('ICPC2B', icpc2b)
+    writeNodeJson('ICPC2B', icpc2b)
+    writeKotlinCsv('ICPC2B', icpc2b)
 }
 
 async function parseICD10(): Promise<void> {
@@ -102,14 +100,14 @@ async function parseICD10(): Promise<void> {
         R.filter((it) => it.Rapporteres_til_NPR == 'Ja'),
         R.filter((it) => it['Gyldig_til'] == null || !isBefore(it['Gyldig_til'], today)),
         R.map((it) => ({
+            system: 'ICD10',
             code: it.Kode,
             text: it.Tekst_uten_lengdebegrensning,
-            system: 'ICD10',
         })),
     )
 
-    writeNodeDiagnosisJson('ICD10', icd10)
-    generateKotlinDiagnosis('ICD10', icd10)
+    writeNodeJson('ICD10', icd10)
+    writeKotlinCsv('ICD10', icd10)
 }
 
 await parseICD10()

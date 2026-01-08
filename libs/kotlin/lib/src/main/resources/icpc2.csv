@@ -1,0 +1,710 @@
+system#code#text
+ICPC2#A01#Smerte generell/flere steder
+ICPC2#A02#Frysninger
+ICPC2#A03#Feber
+ICPC2#A04#Slapphet/tretthet
+ICPC2#A05#Sykdomsfølelse
+ICPC2#A06#Besvimelse/synkope
+ICPC2#A07#Bevisstløshet/koma
+ICPC2#A08#Hevelse/oppfylning IKA
+ICPC2#A09#Svetteproblemer
+ICPC2#A10#Blødning IKA
+ICPC2#A11#Brystsmerte IKA
+ICPC2#A13#Engstelig for behandling
+ICPC2#A16#Irritabelt/urolig spedbarn
+ICPC2#A18#Bekymret/opptatt av utseende IKA
+ICPC2#A191#Kjønnsinkongruens
+ICPC2#A20#Dødshjelp diskusjon/spørsmål om
+ICPC2#A21#Økt risiko for ondartet svulst
+ICPC2#A23#Risiko for sykdom IKA
+ICPC2#A25#Engstelig for døden
+ICPC2#A26#Engstelig for kreft IKA
+ICPC2#A27#Engstelig for sykdom IKA
+ICPC2#A28#Redusert funksjonsevne IKA
+ICPC2#A29#Generelle symptomer/plager IKA
+ICPC2#A70#Tuberkulose
+ICPC2#A71#Meslinger
+ICPC2#A72#Vannkopper
+ICPC2#A73#Malaria
+ICPC2#A74#Røde hunder
+ICPC2#A75#Mononukleose
+ICPC2#A76#Virussykdom med utslett IKA
+ICPC2#A77#Virussykdom IKA
+ICPC2#A78#Infeksjonssykdom IKA
+ICPC2#A79#Ondartet svulst IKA
+ICPC2#A80#Skade/traume IKA
+ICPC2#A81#Multiple skader/traumer
+ICPC2#A82#Følgetilstand etter skade/traume
+ICPC2#A84#Legemiddelforgiftning
+ICPC2#A85#Bivirkning av legemiddel
+ICPC2#A86#Toksisk virkning av ikke-medisinsk stoff
+ICPC2#A87#Komplikasjon etter medisinsk behandling
+ICPC2#A88#Skadevirkning av fysisk faktor
+ICPC2#A89#Komplikasjoner/problemer med protese
+ICPC2#A90#Medfødt feil IKA/multiple medfødte feil
+ICPC2#A91#Unormalt resultat ved undersøkelse IKA
+ICPC2#A92#Allergi/allergisk reaksjon IKA
+ICPC2#A93#Prematurt/immaturt født barn
+ICPC2#A94#Perinatal sykelighet IKA
+ICPC2#A95#Perinatal død
+ICPC2#A96#Død/dødsfall IKA
+ICPC2#A97#Kontakt/undersøkelse for administrativt formål
+ICPC2#A98#Individforebyggende tiltak
+ICPC2#A981#Livmorhalsprøve
+ICPC2#A981#Livmorhalsprøve
+ICPC2#A99#Helseproblem/sykdom ikke spesifisert/lokalisert
+ICPC2#B02#Lymfeknuter forstørrede/smertefulle
+ICPC2#B04#Blod/blodsystemet symptomer/plager
+ICPC2#B25#Engstelig for hiv/aids
+ICPC2#B26#Engstelig for kreft i blod- og lymfesystemet
+ICPC2#B27#Engstelig for sykdom i blod- og lymfesystemet IKA
+ICPC2#B28#Redusert funksjonsevne pga blod/lymfe-problem
+ICPC2#B29#Blod/lymfesystem symptomer/plager IKA
+ICPC2#B70#Lymfadenitt akutt
+ICPC2#B71#Lymfadenitt kronisk/uspesifikk
+ICPC2#B72#Hodgkins sykdom/lymfom
+ICPC2#B73#Leukemi
+ICPC2#B74#Ondartet svulst i blod/lymfesystemet IKA
+ICPC2#B75#Godartet/uspesifisert svulst i blod/lymfesystemet
+ICPC2#B76#Miltruptur traumatisk
+ICPC2#B77#Skade i blod/lymfesystemet IKA
+ICPC2#B78#Arvelig hemolytisk anemi
+ICPC2#B79#Medfødt feil i blod/lymfesystemet IKA
+ICPC2#B80#Jernmangelanemi
+ICPC2#B81#Anemi ved vitamin B12-/folsyremangel
+ICPC2#B82#Anemi IKA
+ICPC2#B83#Purpura/koagulasjonsdefekt
+ICPC2#B84#Unormale hvite blodceller
+ICPC2#B87#Forstørret milt
+ICPC2#B90#Hiv-sykdom/aids
+ICPC2#B99#Blod/lymfe/milt sykdom IKA
+ICPC2#D01#Abdominalsmerte/krampe generell
+ICPC2#D02#Abdominalsmerte epigastriet
+ICPC2#D03#Halsbrann
+ICPC2#D04#Endetarmssmerte
+ICPC2#D05#Perianal kløe
+ICPC2#D06#Abdominalsmerte lokalisert IKA
+ICPC2#D07#Dyspepsi/fordøyelsesbesvær
+ICPC2#D08#Flatulens/oppblåsthet/raping
+ICPC2#D09#Kvalme
+ICPC2#D10#Oppkast/brekninger
+ICPC2#D11#Diaré
+ICPC2#D12#Forstoppelse
+ICPC2#D13#Gulsott
+ICPC2#D14#Oppkast med blod/hematemese
+ICPC2#D15#Melena
+ICPC2#D16#Rektalblødning
+ICPC2#D17#Inkontinens avføring
+ICPC2#D18#Endring i avføring/avføringsvane
+ICPC2#D19#Tenner/tannkjøtt symptomer/plager
+ICPC2#D20#Munn/tunge/leppe symptomer/plager
+ICPC2#D21#Svelgebesvær
+ICPC2#D23#Forstørret lever
+ICPC2#D24#Abdominal oppfylling/kul IKA
+ICPC2#D25#Utspilt abdomen
+ICPC2#D26#Engstelig for kreft i fordøyelsessystemet
+ICPC2#D27#Engstelig for sykdom i fordøyelsessystemet IKA
+ICPC2#D28#Redusert funksjonsevne pga fordøyelsesproblem
+ICPC2#D29#Fordøyelsessystemet symptomer/plager IKA
+ICPC2#D70#Tarminfeksjon
+ICPC2#D71#Kusma
+ICPC2#D72#Virushepatitt
+ICPC2#D73#Gastroenteritt antatt infeksiøs
+ICPC2#D74#Ondartet svulst i magesekk
+ICPC2#D75#Ondartet svulst i tykktarm/endetarm
+ICPC2#D76#Ondartet svulst i bukspyttkjertel
+ICPC2#D77#Ondartet svulst i fordøyelsessystemet IKA
+ICPC2#D78#Godartet/uspesifisert svulst i fordøyelsesystemet
+ICPC2#D79#Fremmedlegeme i fordøyelsesystemet
+ICPC2#D80#Skade i fordøyelsessystemet IKA
+ICPC2#D81#Medfødt feil i fordøyelsessystemet
+ICPC2#D82#Tenner/tannkjøtt sykdom
+ICPC2#D83#Munn/tunge/lepper sykdom
+ICPC2#D84#Spiserørssykdom
+ICPC2#D85#Sår i tolvfingertarm
+ICPC2#D86#Magesår IKA
+ICPC2#D87#Funksjonelle plager i magesekk
+ICPC2#D88#Appendisitt
+ICPC2#D89#Lyskebrokk
+ICPC2#D90#Mellomgulvsbrokk
+ICPC2#D91#Abdominalt brokk IKA
+ICPC2#D92#Divertikkelsykdom i tarm
+ICPC2#D93#Irritabel tarm-syndrom
+ICPC2#D94#Kronisk enteritt/ulcerøs kolitt
+ICPC2#D95#Analfissur/perianal abscess
+ICPC2#D96#Orme-/parasittsykdom
+ICPC2#D97#Leversykdom IKA
+ICPC2#D98#Galleveisbetennelse/gallestein
+ICPC2#D99#Sykdom i fordøyelsessystemet IKA
+ICPC2#D991#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D992#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D993#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D994#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D995#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D996#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D997#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D998#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#D999#Utbruddssykdom definert av FHI, fordøyelsessystemet
+ICPC2#F01#Øyesmerte
+ICPC2#F02#Rødt øye
+ICPC2#F03#Tåreflod/sekresjon øye
+ICPC2#F04#Synlige flekker/tråder i synsfeltet
+ICPC2#F05#Synsforstyrrelse IKA
+ICPC2#F13#Øye unormal følelse
+ICPC2#F14#Øye unormal bevegelse
+ICPC2#F15#Øye unormalt utseende
+ICPC2#F16#Øyelokk symptomer/plager
+ICPC2#F17#Briller symptomer/plager
+ICPC2#F18#Kontaktlinser symptomer/plager
+ICPC2#F27#Engstelig for øyesykdom
+ICPC2#F28#Redusert funksjonsevne pga øyeproblem
+ICPC2#F29#Øye symptomer/plager IKA
+ICPC2#F70#Infeksiøs konjunktivitt
+ICPC2#F71#Allergisk konjunktivitt
+ICPC2#F72#Øyelokkbetennelse
+ICPC2#F73#Øye infeksjon/betennelse IKA
+ICPC2#F74#Svulst i øye/øyehule
+ICPC2#F75#Kontusjon/blødning i øye
+ICPC2#F76#Fremmedlegeme i øye
+ICPC2#F79#Skade i øye IKA
+ICPC2#F80#Tåreveisstenose/atresi hos spedbarn
+ICPC2#F81#Medfødt feil i øye IKA
+ICPC2#F82#Netthinneløsning/rift
+ICPC2#F83#Retinopati
+ICPC2#F84#Makuladegenerasjon
+ICPC2#F85#Hornhinnesår
+ICPC2#F86#Trakom
+ICPC2#F91#Brytningsforstyrrelse
+ICPC2#F92#Grå stær/katarakt
+ICPC2#F93#Glaukom
+ICPC2#F94#Blindhet
+ICPC2#F95#Skjeling/strabisme
+ICPC2#F99#Øyesykdom IKA
+ICPC2#H01#Øresmerte/øreverk
+ICPC2#H02#Hørsel symptomer/plager
+ICPC2#H03#Øresus
+ICPC2#H04#Øreflod/sekresjon
+ICPC2#H05#Blødning øre
+ICPC2#H13#Øreplugg/øretetthet
+ICPC2#H15#Bekymret/opptatt av ørenes utseende
+ICPC2#H27#Engstelig for hørselsproblemer/øresykdom
+ICPC2#H28#Redusert funksjonsevne pga øreproblem
+ICPC2#H29#Øre symptomer/plager IKA
+ICPC2#H70#Ytre øre betennelse
+ICPC2#H71#Mellomørebetennelse akutt
+ICPC2#H72#Mellomørebetennelse serøs
+ICPC2#H73#Tuba auditiva betennelse
+ICPC2#H74#Mellomørebetennelse kronisk
+ICPC2#H75#Svulst i øre
+ICPC2#H76#Fremmedlegeme i øre
+ICPC2#H77#Perforert trommehinne IKA
+ICPC2#H78#Overflateskade på ytre øre
+ICPC2#H79#Skade øre IKA
+ICPC2#H80#Medfødt feil i øre
+ICPC2#H81#Ørevoks
+ICPC2#H82#Svimmelhetssyndrom
+ICPC2#H83#Otosklerose
+ICPC2#H84#Hørselstap aldersbetinget
+ICPC2#H85#Hørselstap pga støyskade
+ICPC2#H86#Døvhet/hørselstap IKA
+ICPC2#H99#Øresykdom IKA
+ICPC2#K01#Smerte relatert til hjertet
+ICPC2#K02#Trykk/sammensnøring hjertet
+ICPC2#K03#Smerte relatert til kretsløpet IKA
+ICPC2#K04#Hjertebank
+ICPC2#K05#Uregelmessige hjerteslag IKA
+ICPC2#K06#Utvidede vener
+ICPC2#K07#Hovne ankler/ødem
+ICPC2#K22#Økt risiko for hjerte-karsykdom
+ICPC2#K24#Engstelig for hjertesykdom
+ICPC2#K25#Engstelig for høyt blodtrykk
+ICPC2#K27#Engstelig for hjerte-karsykdom IKA
+ICPC2#K28#Redusert funksjonsevne pga hjerte-karproblem
+ICPC2#K29#Hjerte-karsystemet symptomer/plager IKA
+ICPC2#K70#Infeksjon i hjerte-karsystemet
+ICPC2#K71#Reumatisk feber/hjertesykdom
+ICPC2#K72#Svulst i hjerte
+ICPC2#K73#Medfødt feil i hjerte-karsystemet
+ICPC2#K74#Iskemisk hjertesykdom med angina pectoris
+ICPC2#K75#Akutt hjerteinfarkt
+ICPC2#K76#Iskemisk hjertesykdom kronisk IKA
+ICPC2#K77#Hjertesvikt
+ICPC2#K78#Atrieflimmer/flutter
+ICPC2#K79#Paroksysmal takykardi
+ICPC2#K80#Hjertearytmi IKA
+ICPC2#K81#Bilyd hjerte/arterier IKA
+ICPC2#K82#Pulmonal hjertesykdom
+ICPC2#K83#Hjerteklaffesykdom IKA
+ICPC2#K84#Hjertesykdom IKA
+ICPC2#K85#Forhøyet blodtrykk IKA
+ICPC2#K86#Hypertensjon ukomplisert
+ICPC2#K87#Hypertensjon med organkomplikasjoner
+ICPC2#K88#Postural hypotensjon
+ICPC2#K89#Anfall med forbigående cerebral iskemi
+ICPC2#K90#Hjerneslag
+ICPC2#K91#Cerebrovaskulær sykdom
+ICPC2#K92#Aterosklerose/perifer karsykdom
+ICPC2#K93#Lungeemboli
+ICPC2#K94#Årebetennelse
+ICPC2#K95#Åreknuter på underekstremitet
+ICPC2#K96#Hemoroider
+ICPC2#K99#Hjerte-karsykdom IKA
+ICPC2#L01#Nakke symptomer/plager
+ICPC2#L02#Rygg symptomer/plager
+ICPC2#L03#Korsrygg symptomer/plager
+ICPC2#L04#Brystkasse symptomer/plager
+ICPC2#L05#Flanke/armhule symptomer/plager
+ICPC2#L07#Kjeve symptomer/plager
+ICPC2#L08#Skulder symptomer/plager
+ICPC2#L09#Arm symptomer/plager
+ICPC2#L10#Albue symptomer/plager
+ICPC2#L11#Håndledd symptomer/plager
+ICPC2#L12#Hånd/finger symptomer/plager
+ICPC2#L13#Hofte symptomer/plager
+ICPC2#L14#Legg/lår symptomer/plager
+ICPC2#L15#Kne symptomer/plager
+ICPC2#L16#Ankel symptomer/plager
+ICPC2#L17#Fot/tå symptomer/plager
+ICPC2#L18#Utbredte muskelsmerter/fibromyalgi
+ICPC2#L19#Muskel symptomer/plager IKA
+ICPC2#L20#Ledd symptomer/plager IKA
+ICPC2#L26#Engstelig for kreft i muskel- og skjelettsystemet
+ICPC2#L27#Engstelig for sykdom i muskel- og skjelettsystemet IKA
+ICPC2#L28#Redusert funksjonsevne pga muskel-skjelettproblem
+ICPC2#L29#Muskel- og skjelettsystemet symptomer/plager IKA
+ICPC2#L70#Infeksjon i muskel- og skjelettsystemet
+ICPC2#L71#Ondartet svulst i muskel- og skjelettsystemet
+ICPC2#L72#Brudd underarm
+ICPC2#L73#Brudd legg/ankel
+ICPC2#L74#Brudd hånd/fot
+ICPC2#L75#Brudd lårben/lårhals
+ICPC2#L76#Brudd IKA
+ICPC2#L77#Forstuving/forstrekking ankel
+ICPC2#L78#Forstuving/forstrekking kne
+ICPC2#L79#Forstuving/forstrekking ledd IKA
+ICPC2#L80#Dislokasjon/subluksasjon
+ICPC2#L81#Skade i muskel- og skjelettsystemet IKA
+ICPC2#L82#Medfødt feil i muskel- og skjelettsystemet
+ICPC2#L83#Nakkesyndrom
+ICPC2#L84#Ryggsyndrom uten smerteutstråling
+ICPC2#L85#Ervervet deformitet av ryggsøylen
+ICPC2#L86#Ryggsyndrom med smerteutstråling
+ICPC2#L87#Bursitt/tendinitt/synovitt IKA
+ICPC2#L88#Reumatoid artritt/reumatisk sykdom
+ICPC2#L89#Hofteleddsartrose
+ICPC2#L90#Kneleddsartrose
+ICPC2#L91#Artrose IKA
+ICPC2#L92#Skuldersyndrom
+ICPC2#L93#Tennisalbue/lateral epikondylitt
+ICPC2#L94#Osteokondrose
+ICPC2#L95#Osteoporose
+ICPC2#L96#Akutt indre kneskade
+ICPC2#L97#Godartet/uspesifisert svulst  i muskel- og skjelettsystemet
+ICPC2#L98#Ervervet deformitet av ekstremitet
+ICPC2#L99#Muskel- og skjelettsykdom IKA
+ICPC2#N01#Hodepine
+ICPC2#N03#Ansiktssmerte
+ICPC2#N04#Restless legs
+ICPC2#N05#Prikking/parestesi i hender/føtter
+ICPC2#N06#Forstyrrelser i hudens følsomhet IKA
+ICPC2#N07#Krampeanfall/kramper
+ICPC2#N08#Unormale/ufrivillige bevegelser
+ICPC2#N16#Forstyrrelse i lukt/smak
+ICPC2#N17#Svimmelhet IKA
+ICPC2#N18#Lammelse/svakhet
+ICPC2#N19#Talevansker
+ICPC2#N26#Engstelig for kreft i nervesystemet
+ICPC2#N27#Engstelig for sykdom i nervesystemet IKA
+ICPC2#N28#Redusert funksjonsevne pga problem i nervesystemet
+ICPC2#N29#Nervesystemet symptomer/plager IKA
+ICPC2#N70#Poliomyelitt
+ICPC2#N71#Meningitt/encefalitt
+ICPC2#N72#Stivkrampe
+ICPC2#N73#Infeksjon i sentralnervesystemet IKA
+ICPC2#N74#Ondartet svulst i nervesystemet
+ICPC2#N75#Godartet svulst i nervesystemet
+ICPC2#N76#Uspesifisert svulst i nervesystemet
+ICPC2#N79#Hjernerystelse
+ICPC2#N80#Hodeskade IKA
+ICPC2#N81#Skade i nervesystemet IKA
+ICPC2#N85#Medfødt feil i nervesystemet
+ICPC2#N86#Multippel sklerose
+ICPC2#N87#Parkinsonisme
+ICPC2#N88#Epilepsi
+ICPC2#N89#Migrene
+ICPC2#N90#Cluster-hodepine
+ICPC2#N91#Facialisparese
+ICPC2#N92#Trigeminusnevralgi
+ICPC2#N93#Carpal tunnel syndrom
+ICPC2#N94#Perifer nevropati
+ICPC2#N95#Tensjonshodepine
+ICPC2#N99#Sykdom i nervesystemet IKA
+ICPC2#P01#Følelse av angst/nervøsitet/anspenthet
+ICPC2#P02#Psykisk ubalanse situasjonsbetinget
+ICPC2#P03#Depresjonsfølelse
+ICPC2#P04#Irritabel atferd/følelse
+ICPC2#P05#Senilitet, atferd/følelse gammel
+ICPC2#P06#Søvnforstyrrelse
+ICPC2#P07#Seksuell drift/lyst hemmet
+ICPC2#P08#Seksuell tilfredsstillelse hemmet
+ICPC2#P09#Seksuell legning bekymring for
+ICPC2#P10#Stamming/tics
+ICPC2#P11#Spiseforstyrrelse hos barn
+ICPC2#P12#Sengevæting/enuresis IKA
+ICPC2#P13#Enkoprese
+ICPC2#P15#Kronisk alkoholmisbruk
+ICPC2#P16#Akutt alkoholmisbruk
+ICPC2#P17#Tobakkmisbruk
+ICPC2#P18#Legemiddelmisbruk
+ICPC2#P19#Stoffmisbruk
+ICPC2#P20#Hukommelsesforstyrrelse
+ICPC2#P22#Atferdsforstyrrelse hos barn
+ICPC2#P23#Atferdsforstyrrelse hos ungdom
+ICPC2#P24#Spesifikke utviklingsforstyrrelser
+ICPC2#P25#Livsfaseproblem hos voksen
+ICPC2#P27#Engstelig for psykisk sykdom
+ICPC2#P28#Redusert funksjonsevne pga psykisk problem
+ICPC2#P29#Psykiske symptomer/plager IKA
+ICPC2#P70#Demens
+ICPC2#P71#Organisk psykisk lidelse IKA
+ICPC2#P72#Schizofreni
+ICPC2#P73#Bipolar lidelse
+ICPC2#P74#Angstlidelse
+ICPC2#P75#Dissosiativ/somatoform lidelse
+ICPC2#P76#Depressiv lidelse
+ICPC2#P77#Selvmord/selvmordsforsøk
+ICPC2#P78#Nevrasteni
+ICPC2#P79#Fobi/obsessiv-kompulsiv lidelse
+ICPC2#P80#Personlighetsforstyrrelse
+ICPC2#P81#Hyperkinetisk forstyrrelse
+ICPC2#P82#Posttraumatisk stresslidelse
+ICPC2#P85#Psykisk utviklingshemning
+ICPC2#P86#Anorexia nervosa/bulimi
+ICPC2#P98#Psykose IKA
+ICPC2#P99#Psykisk lidelse IKA
+ICPC2#R01#Smerte i luftveier
+ICPC2#R02#Kortpustethet/dyspné
+ICPC2#R03#Piping i brystet
+ICPC2#R04#Pusteproblem IKA
+ICPC2#R05#Hoste
+ICPC2#R06#Neseblødning
+ICPC2#R07#Nysing/tetthet i nese
+ICPC2#R08#Nese symptomer/plager IKA
+ICPC2#R09#Bihule symptomer/plager IKA
+ICPC2#R21#Hals symptomer/plager
+ICPC2#R23#Stemme symptomer/plager
+ICPC2#R24#Blodig oppspytt/hemoptyse
+ICPC2#R25#Unormalt oppspytt/ekspektorat
+ICPC2#R26#Engstelig for kreft i luftveiene
+ICPC2#R27#Engstelig for sykdom i luftveiene IKA
+ICPC2#R28#Redusert funksjonsevne pga luftveisproblem
+ICPC2#R29#Luftveiene symptomer/plager IKA
+ICPC2#R33#Mikrobiologisk/immunologisk prøve
+ICPC2#R71#Kikhoste
+ICPC2#R72#Streptokokkhals
+ICPC2#R73#Nesebyll
+ICPC2#R74#Akutt øvre luftveisinfeksjon
+ICPC2#R75#Bihulebetennelse
+ICPC2#R76#Akutt tonsillitt
+ICPC2#R77#Akutt laryngitt/trakeitt
+ICPC2#R78#Akutt bronkitt/bronkiolitt
+ICPC2#R79#Kronisk bronkitt
+ICPC2#R80#Influensa
+ICPC2#R81#Lungebetennelse
+ICPC2#R82#Pleuritt IKA
+ICPC2#R83#Luftveisinfeksjon IKA
+ICPC2#R84#Ondartet svulst i bronkie/lunge
+ICPC2#R85#Ondartet svulst i luftveiene IKA
+ICPC2#R86#Godartet svulst i luftveiene
+ICPC2#R87#Fremmedlegeme i nese/larynks/bronkie
+ICPC2#R88#Skade i luftveiene IKA
+ICPC2#R89#Medfødt feil i luftveiene
+ICPC2#R90#Hypertrofi av tonsiller/adenoid vev
+ICPC2#R92#Uspesifisert svulst i luftveiene
+ICPC2#R95#Kronisk obstruktiv lungesykdom
+ICPC2#R96#Astma
+ICPC2#R97#Allergisk rhinitt
+ICPC2#R98#Hyperventileringssyndrom
+ICPC2#R99#Luftveissykdom IKA
+ICPC2#R991#Covid-19 (mistenkt/sannsynlig)
+ICPC2#R992#Covid-19 (bekreftet)
+ICPC2#R993#Utbruddssykdom definert av FHI, luftveier
+ICPC2#R994#Utbruddssykdom definert av FHI, luftveier
+ICPC2#R995#Utbruddssykdom definert av FHI, luftveier
+ICPC2#R996#Utbruddssykdom definert av FHI, luftveier
+ICPC2#R997#Utbruddssykdom definert av FHI, luftveier
+ICPC2#R998#Utbruddssykdom definert av FHI, luftveier
+ICPC2#R999#Utbruddssykdom definert av FHI, luftveier
+ICPC2#S01#Smerte/ømhet i huden
+ICPC2#S02#Hudkløe
+ICPC2#S03#Vorter
+ICPC2#S04#Lokalisert hevelse/kul i huden
+ICPC2#S05#Utbredte hevelser/kuler i huden
+ICPC2#S06#Lokalisert utslett i huden
+ICPC2#S07#Utbredt utslett i huden
+ICPC2#S08#Forandring av hudfargen IKA
+ICPC2#S09#Infeksjon i finger/tå
+ICPC2#S10#Abscess/furunkel
+ICPC2#S11#Hudinfeksjon posttraumatisk
+ICPC2#S12#Insektstikk/bitt
+ICPC2#S13#Bitt av dyr/menneske
+ICPC2#S14#Forbrenning/skålding
+ICPC2#S15#Fremmedlegeme i huden
+ICPC2#S16#Kontusjon/slag hud
+ICPC2#S17#Skrubbsår/blemmer
+ICPC2#S18#Åpent sår/kutt
+ICPC2#S19#Skade i hud/underhud IKA
+ICPC2#S20#Liktorn/fortykket underhud
+ICPC2#S21#Hudstruktur symptomer/plager
+ICPC2#S22#Negl symptomer/plager
+ICPC2#S23#Håravfall/skallethet
+ICPC2#S24#Hår/hodebunn symptomer/plager IKA
+ICPC2#S26#Engstelig for kreft i huden
+ICPC2#S27#Engstelig for hudsykdom IKA
+ICPC2#S28#Redusert funksjonsevne pga hudproblem
+ICPC2#S29#Hud symptomer/plager IKA
+ICPC2#S70#Herpes zoster
+ICPC2#S71#Herpes simplex IKA
+ICPC2#S72#Infestasjon av midd
+ICPC2#S73#Infestasjon av parasitt IKA
+ICPC2#S74#Ringorm/hudsopp IKA
+ICPC2#S75#Candidainfeksjon i huden
+ICPC2#S76#Hudinfeksjon IKA
+ICPC2#S77#Ondartet svulst i huden
+ICPC2#S78#Lipom
+ICPC2#S79#Godartet/uspesifisert svulst i huden IKA
+ICPC2#S80#Solutløst keratose/solforbrenning
+ICPC2#S81#Hemangiom/lymfangiom
+ICPC2#S82#Pigmentnevus
+ICPC2#S83#Medfødt feil i hud/underhud IKA
+ICPC2#S84#Brennkopper
+ICPC2#S85#Pilonidalcyste/-fistel
+ICPC2#S86#Seboréisk dermatitt
+ICPC2#S87#Atopisk dermatitt/eksem
+ICPC2#S88#Kontaktdermatitt/allergisk dermatitt IKA
+ICPC2#S89#Bleiedermatitt
+ICPC2#S90#Pityriasis rosea
+ICPC2#S91#Psoriasis
+ICPC2#S92#Svettekjertelsykdom
+ICPC2#S93#Talgcyste
+ICPC2#S94#Inngrodd negl
+ICPC2#S95#Molluscum contagiosum
+ICPC2#S96#Akne
+ICPC2#S97#Kronisk hudsår
+ICPC2#S98#Urticaria
+ICPC2#S99#Hud/underhud sykdom IKA
+ICPC2#T01#Økt tørste
+ICPC2#T02#Økt matlyst
+ICPC2#T03#Nedsatt matlyst
+ICPC2#T04#Ernæringsproblem hos spedbarn/barn
+ICPC2#T05#Ernæringsproblem hos voksen
+ICPC2#T07#Vektøkning
+ICPC2#T08#Vekttap
+ICPC2#T10#Forsinket vekst
+ICPC2#T11#Uttørring
+ICPC2#T26#Engstelig for kreft i det endokrine systemet
+ICPC2#T27#Engstelig for sykd endokr/metabolske syst/ernæringssykd IKA
+ICPC2#T28#Redusert funksjonsevne pga endokr/metabolsk/ernæringsproblem
+ICPC2#T29#Endokrin/metabolsk/ernæring symptomer/plager IKA
+ICPC2#T70#Infeksjon i det endokrine systemet
+ICPC2#T71#Ondartet svulst i tyreoidea
+ICPC2#T72#Godartet svulst i tyreoidea
+ICPC2#T73#Svulst i endokrine organ IKA
+ICPC2#T78#Ductus/cystis tyreoglossus
+ICPC2#T80#Medfødt feil i endokrine/metabolske system IKA
+ICPC2#T81#Struma
+ICPC2#T82#Fedme
+ICPC2#T83#Overvekt
+ICPC2#T85#Hypertyreose/tyreotoksikose
+ICPC2#T86#Hypotyreose/myksødem
+ICPC2#T87#Hypoglykemi
+ICPC2#T89#Diabetes type 1
+ICPC2#T90#Diabetes type 2
+ICPC2#T91#Vitaminmangel/ernæringsforstyrrelse
+ICPC2#T92#Urinsyregikt
+ICPC2#T93#Lipidstoffskifte forstyrrelse
+ICPC2#T99#Endokrin/metabolsk/ernæringssykdom IKA
+ICPC2#U01#Smerte ved vannlating
+ICPC2#U02#Hyppig vannlating
+ICPC2#U04#Urininkontinens
+ICPC2#U05#Vannlatingsproblemer IKA
+ICPC2#U06#Hematuri
+ICPC2#U07#Urin symptomer/plager IKA
+ICPC2#U08#Urinretensjon
+ICPC2#U13#Blære symptomer/plager IKA
+ICPC2#U14#Nyre symptomer/plager
+ICPC2#U26#Engstelig for kreft i urinveiene
+ICPC2#U27#Engstelig for sykdom i urinveiene IKA
+ICPC2#U28#Redusert funksjonsevne pga urinveisproblem
+ICPC2#U29#Urinveier symptomer/plager IKA
+ICPC2#U70#Nyrebekkenbetennelse
+ICPC2#U71#Cystitt/urinveisinfeksjon IKA
+ICPC2#U72#Uretritt
+ICPC2#U75#Ondartet svulst i nyre
+ICPC2#U76#Ondartet svulst i urinblære
+ICPC2#U77#Ondartet svulst i urinveiene IKA
+ICPC2#U78#Godartet svulst i urinveiene
+ICPC2#U79#Uspesifisert svulst i urinveiene
+ICPC2#U80#Skade i urinveiene
+ICPC2#U85#Medfødt feil i urinveiene
+ICPC2#U88#Glomerulonefritt/nefropati
+ICPC2#U90#Ortostatisk proteinuri
+ICPC2#U95#Stein i urinveiene
+ICPC2#U98#Unormal urinprøve IKA
+ICPC2#U99#Urinveissykdom IKA
+ICPC2#W01#Spørsmål om svangerskap
+ICPC2#W02#Engstelig for svangerskap
+ICPC2#W03#Blødning i svangerskap
+ICPC2#W05#Kvalme/brekninger i svangerskap
+ICPC2#W10#Prevensjon postkoital antikonsepsjon
+ICPC2#W11#Prevensjon p-pille
+ICPC2#W12#Prevensjon spiral
+ICPC2#W13#Sterilisering kvinne
+ICPC2#W14#Prevensjon IKA kvinne
+ICPC2#W15#Infertilitet kvinne
+ICPC2#W17#Blødning etter fødsel
+ICPC2#W18#Postpartum symptomer/plager IKA
+ICPC2#W19#Amming symptomer/plager
+ICPC2#W21#Bekymret/opptatt av utseende i svangerskap
+ICPC2#W27#Engstelig for komplikasjoner ved svangerskap/fødsel
+ICPC2#W28#Redusert funksjonsevne pga svangerskapsproblem
+ICPC2#W29#Svangerskap/fødsel symptomer/plager IKA
+ICPC2#W70#Infeksjon/sepsis i barseltid
+ICPC2#W71#Infeksjon som kompliserer svangerskap IKA
+ICPC2#W72#Ondartet svulst knyttet til svangerskap
+ICPC2#W73#Godartet/uspesifisert svulst knyttet til svangerskap
+ICPC2#W75#Skade som kompliserer svangerskap
+ICPC2#W76#Medfødt feil som kompliserer svangerskap
+ICPC2#W78#Svangerskap bekreftet
+ICPC2#W781#Svangerskapskontroll
+ICPC2#W79#Uønsket svangerskap
+ICPC2#W80#Ekstrauterint svangerskap
+ICPC2#W81#Svangerskapsforgiftning
+ICPC2#W82#Abort spontan
+ICPC2#W83#Abort fremkalt
+ICPC2#W84#Svangerskap høyrisiko
+ICPC2#W85#Svangerskapsdiabetes
+ICPC2#W90#Ukomplisert fødsel levendefødt barn
+ICPC2#W91#Ukomplisert fødsel dødfødt barn
+ICPC2#W92#Komplisert fødsel levendefødt barn
+ICPC2#W93#Komplisert fødsel dødfødt barn
+ICPC2#W94#Mastitt i barseltid
+ICPC2#W95#Brystsykdom i svangerskap/barseltid IKA
+ICPC2#W96#Komplikasjoner i barseltid IKA
+ICPC2#W99#Svangerskap/fødsel/barseltid sykdom IKA
+ICPC2#X01#Smerte i  kjønnsorgan kvinne
+ICPC2#X02#Menstruasjonssmerter
+ICPC2#X03#Intermenstruelle smerter
+ICPC2#X04#Smerte ved samleie kvinne
+ICPC2#X05#Menstruasjon sparsom/sjelden
+ICPC2#X06#Menstruasjon kraftig
+ICPC2#X07#Menstruasjon uregelmessig/hyppig
+ICPC2#X08#Intermenstruell blødning
+ICPC2#X09#Premenstruelle symptomer/plager
+ICPC2#X10#Forskyvning av menstruasjon
+ICPC2#X11#Klimakterium symptomer/plager
+ICPC2#X12#Postmenopausal blødning
+ICPC2#X13#Blødning etter samleie
+ICPC2#X14#Utflod fra skjeden
+ICPC2#X15#Skjede symptomer/plager IKA
+ICPC2#X16#Vulva symptomer/plager
+ICPC2#X17#Underliv symptomer/plager kvinne
+ICPC2#X18#Smerte i bryst kvinne
+ICPC2#X19#Kul i bryst IKA kvinne
+ICPC2#X20#Brystvorte symptomer/plager kvinne
+ICPC2#X21#Bryst symptomer/plager IKA kvinne
+ICPC2#X22#Bekymret/opptatt av brystenes utseende kvinne
+ICPC2#X23#Engstelig for kjønnssykdom kvinne
+ICPC2#X24#Engstelig for seksuell dysfunksjon kvinne
+ICPC2#X25#Engstelig for kreft i kjønnsorgan kvinne
+ICPC2#X26#Engstelig for brystkreft kvinne
+ICPC2#X27#Engstelig for sykdom i kjønnsorgan/bryst IKA kvinne
+ICPC2#X28#Redusert funksjonsevne pga problem i kjønnsorgan kvinne
+ICPC2#X29#Kjønnsorgan symptomer/plager IKA kvinne
+ICPC2#X70#Syfilis kvinne
+ICPC2#X71#Gonokokkinfeksjon kvinne
+ICPC2#X72#Candidainfeksjon urogenitalt kvinne
+ICPC2#X73#Trikomonasinfeksjon urogenitalt kvinne
+ICPC2#X74#Underlivsinfeksjon IKA kvinne
+ICPC2#X75#Ondartet svulst i livmorhals
+ICPC2#X76#Ondartet svulst i bryst kvinne
+ICPC2#X77#Ondartet svulst i kvinnelige kjønnsorgan  IKA
+ICPC2#X78#Godartet svulst i livmor
+ICPC2#X79#Godartet svulst i bryst kvinne
+ICPC2#X80#Godartet svulst i kvinnelige kjønnsorgan IKA
+ICPC2#X81#Uspesifisert svulst i kvinnelige kjønnsorgan IKA
+ICPC2#X82#Skade i kvinnelige kjønnsorgan
+ICPC2#X83#Medfødt feil i kvinnelige kjønnsorgan
+ICPC2#X84#Vaginitt/vulvitt IKA
+ICPC2#X85#Sykdom i livmorhals IKA
+ICPC2#X86#Cytologi livmorhals unormal
+ICPC2#X87#Fremfall av kvinnelige kjønnsorgan
+ICPC2#X88#Godartet mammadysplasi
+ICPC2#X89#Premenstruelt tensjonssyndrom
+ICPC2#X90#Genital herpesvirusinfeksjon kvinne
+ICPC2#X91#Condylomata acuminata kvinne
+ICPC2#X92#Klamydiainfeksjon urogenitalt kvinne
+ICPC2#X99#Sykdom i kvinnelige kjønnsorgan IKA
+ICPC2#Y01#Smerte i penis
+ICPC2#Y02#Smerte i testikkel/skrotum
+ICPC2#Y03#Utflod fra urinrør/penis
+ICPC2#Y04#Penis symptomer/plager IKA
+ICPC2#Y05#Skrotum/testikkel symptomer/plager IKA
+ICPC2#Y06#Prostata symptomer/plager
+ICPC2#Y07#Impotens organisk betinget
+ICPC2#Y08#Seksuelt problem IKA mann
+ICPC2#Y10#Infertilitet mann
+ICPC2#Y13#Sterilisering mann
+ICPC2#Y14#Prevensjon IKA mann
+ICPC2#Y16#Bryst symptomer/plager mann
+ICPC2#Y24#Engstelig for seksuell dysfunksjon mann
+ICPC2#Y25#Engstelig for kjønnssykdom mann
+ICPC2#Y26#Engstelig for kreft i kjønnsorgan mann
+ICPC2#Y27#Engstelig for sykdom i kjønnsorgan IKA mann
+ICPC2#Y28#Redusert funksjonsevne pga problem i kjønnsorgan mann
+ICPC2#Y29#Kjønnsorgan symptomer/plager  IKA mann
+ICPC2#Y70#Syfilis mann
+ICPC2#Y71#Gonokokkinfeksjon mann
+ICPC2#Y72#Genital herpesvirusinfeksjon mann
+ICPC2#Y73#Prostatitt/vesikulitt
+ICPC2#Y74#Orkitt/epididymitt
+ICPC2#Y75#Balanopostitt
+ICPC2#Y76#Condylomata acuminata mann
+ICPC2#Y77#Ondartet svulst i prostata
+ICPC2#Y78#Ondartet svulst i mannlige kjønnsorgan IKA
+ICPC2#Y79#Godartet/uspesifisert svulst i mannlige kjønnsorgan
+ICPC2#Y80#Skade i mannlige kjønnsorgan
+ICPC2#Y81#Fimose/overflødig forhud
+ICPC2#Y82#Hypospadi
+ICPC2#Y83#Ikke-descendert testikkel
+ICPC2#Y84#Medfødt feil i mannlige kjønnsorgan IKA
+ICPC2#Y85#Prostatahyperplasi
+ICPC2#Y86#Hydrocele
+ICPC2#Y99#Sykdom i mannlige kjønnsorgan IKA
+ICPC2#Z01#Problem med økonomi/fattigdom
+ICPC2#Z02#Problem med drikkevann/mat
+ICPC2#Z03#Problem med bolig/nabolag
+ICPC2#Z04#Problem sosialt/kulturelt
+ICPC2#Z05#Problem med arbeidsforhold/yrke
+ICPC2#Z06#Problem med arbeidsledighet
+ICPC2#Z07#Problem med utdannelse
+ICPC2#Z08#Problem med sosial velferd/trygd
+ICPC2#Z09#Problem med jus/politi
+ICPC2#Z10#Problem med helsetjenester/tilgjengelighet
+ICPC2#Z11#Problem med det å være syk/compliance
+ICPC2#Z12#Problemer mellom samlivspartnere
+ICPC2#Z13#Problem med atferd til samlivspartner
+ICPC2#Z14#Problem med sykdom hos samlivspartner
+ICPC2#Z15#Problem ved tap/dødsfall av samlivspartner
+ICPC2#Z16#Problem med/i forhold til barn
+ICPC2#Z18#Problem med sykdom hos barn
+ICPC2#Z19#Problem ved tap/dødsfall av barn
+ICPC2#Z20#Problem med forhold til foreldre/familiemedlem
+ICPC2#Z21#Problem med atferd til forelde/familiemedlem
+ICPC2#Z22#Problem med sykdom hos foreldre/familiemedlem
+ICPC2#Z23#Problem ved tap/dødsfall av foreldre/familiemedlem
+ICPC2#Z24#Problem med forhold til venner
+ICPC2#Z25#Problem som følge av vold/traumatisk hendelse
+ICPC2#Z27#Engstelig for sosialt problem
+ICPC2#Z28#Redusert funksjonsevne pga sosialt problem
+ICPC2#Z29#Sosialt problem IKA

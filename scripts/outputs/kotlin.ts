@@ -1,23 +1,21 @@
-import { readFileSync, writeFileSync } from 'fs'
+import * as R from 'remeda'
 import { join } from 'path'
+import { writeFileSync } from 'fs'
 
-const KOTLIN_PATH = 'libs/kotlin/lib/src/main/kotlin/no/nav/tsm/diagnoser/codes'
+const KOTLIN_PATH = 'libs/kotlin/lib/src/main/resources'
+const SEPARATOR = '#'
 
-export function generateKotlinDiagnosis(
-    system: 'ICPC2B' | 'ICPC2' | 'ICD10',
-    diagnosis: { code: string; text: string }[],
-): void {
-    const file = readFileSync(join(KOTLIN_PATH, `${system}.kt`), 'utf-8')
+export function writeKotlinCsv(system: 'ICPC2B' | 'ICPC2' | 'ICD10', data: Record<string, unknown>[]) {
+    const path = join(KOTLIN_PATH, `${system.toLowerCase()}.csv`)
 
-    let generatedKotlinList = diagnosis
-        .map((it) => `Diagnose(system = DiagnoseType.${system}, code = "${it.code}", text = "${it.text}"),`)
-        .join('\n  ')
-
-    const updatedIcpc2bFile = file.replace(
-        /\/\*\* CODEGEN START \*\*\/[\s\S]*?\/\*\* CODEGEN END \*\*\//,
-        `/** CODEGEN START **/\n  ${generatedKotlinList}\n  /** CODEGEN END **/`,
+    const headers = Object.keys(data[0]).join(SEPARATOR)
+    const csv = R.pipe(
+        data,
+        R.map((it) => Object.values(it).join(SEPARATOR)),
+        R.join('\n'),
     )
+    const csvFile = `${headers}\n${csv}`
 
-    console.log(`    ↳ Writing ${diagnosis.length} ${system} to ${system}.kt (Kotlin)`)
-    writeFileSync(join(KOTLIN_PATH, `${system}.kt`), updatedIcpc2bFile, 'utf-8')
+    console.log(`    ↳ Writing ${data.length} ${system} codes to ${path}`)
+    writeFileSync(path, csvFile, 'utf-8')
 }
