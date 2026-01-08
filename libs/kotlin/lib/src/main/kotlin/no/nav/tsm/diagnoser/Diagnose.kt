@@ -21,5 +21,13 @@ data class Diagnose(
         DiagnoseType.ICPC2B -> ICPC2B[code]
         DiagnoseType.ICD10 -> ICD10[code]
       }
+
+    fun fromOid(oid: String, code: String): Diagnose? =
+      when (oid) {
+        ICPC2.OID -> ICPC2[code]
+        ICPC2B.OID -> ICPC2B[code]
+        ICD10.OID -> ICD10[code]
+        else -> null
+      }
   }
 }
