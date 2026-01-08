@@ -21,9 +21,8 @@ dependencies {
 }
 
 java {
-  toolchain {
-    languageVersion = JavaLanguageVersion.of(21)
-  }
+  toolchain { languageVersion = JavaLanguageVersion.of(21) }
+  withSourcesJar()
 }
 
 tasks.named<Test>("test") {
@@ -43,7 +42,7 @@ publishing {
   repositories {
     maven {
       name = "GitHubPackages"
-      url = uri("https://maven.pkg.github.com/navikt/tsm-sykmelding-input")
+      url = uri("https://maven.pkg.github.com/navikt/tsm-diagnoser")
       credentials {
         username = "x-access-token"
         password = System.getenv("GITHUB_TOKEN")
