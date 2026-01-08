@@ -36,7 +36,8 @@ publishing {
       from(components["java"])
       groupId = "no.nav.tsm"
       artifactId = "diagnoser"
-      // version = file("version").readText().trim()
+      // TODO: Figure out smart way to handle versioning
+      version = "2026.1.0-${System.currentTimeMillis() / 1000L}"
     }
   }
   repositories {

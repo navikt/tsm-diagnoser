@@ -17,6 +17,7 @@ jobs:
       - uses: navikt/tsm-workflows/actions/yarn@main
         with:
           READER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: gradle/actions/setup-gradle@v5
 
       - run: yarn build
       - run: libs/node/scripts/meta.mjs libs/node >> $GITHUB_STEP_SUMMARY
@@ -29,3 +30,10 @@ jobs:
         # if: github.ref == 'refs/heads/main'
         run: yarn npm publish --tag=beta
         working-directory: libs/node
+
+      - name: Publish no.nav.tsm.diagnoser (kotlin)
+        # if: github.ref == 'refs/heads/main'
+        run: ./gradlew publish
+        working-directory: libs/kotlin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
