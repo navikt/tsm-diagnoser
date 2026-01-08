@@ -1,5 +1,6 @@
 package no.nav.tsm.diagnoser
 
+import org.junit.jupiter.api.assertThrows
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -32,5 +33,24 @@ class LibraryTest {
     val icpc2bDiagnosis = requireNotNull(ICPC2B["A01.0001"])
 
     assertEquals(icpc2bDiagnosis.toICPC2().text, "Smerte generell/flere steder")
+  }
+
+  @Test
+  fun `should be able to instansiate with dot-from`() {
+    assertEquals(
+      requireNotNull(
+        Diagnose.from(DiagnoseType.ICPC2B, "A01.0001")
+      ).text, "Kronisk generell smerte"
+    )
+    assertEquals(
+      requireNotNull(
+        Diagnose.from("ICPC2B", "A01.0001")
+      ).text, "Kronisk generell smerte"
+    )
+  }
+
+  @Test
+  fun `instansiateing with dot-from with bad system should throw`() {
+    assertThrows<IllegalArgumentException> { Diagnose.from("Wat", "A01.0001") }
   }
 }

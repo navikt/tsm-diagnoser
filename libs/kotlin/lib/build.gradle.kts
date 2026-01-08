@@ -12,12 +12,6 @@ dependencies {
   testImplementation("org.jetbrains.kotlin:kotlin-test")
   testImplementation(libs.junit.jupiter.engine)
   testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
-  // External libs
-  api(libs.commons.math3)
-
-  // Internal libs
-  implementation(libs.guava)
 }
 
 java {
