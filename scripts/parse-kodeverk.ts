@@ -33,27 +33,29 @@ async function parseICPC2(): Promise<void> {
 
     const icpc2 = R.pipe(
         rawIcpc2 as KoteEntry[],
-        R.groupBy((it) => it.Kodeverk),
-        R.prop('ICPC-2B'),
-        // "Root" ICDC-2 nodes are the only one that have Tilhørighet_i_ICPC_2B === 'ICPC-2'
-        R.filter((it) => it['Tilhørighet_i_ICPC_2B'] === 'ICPC-2'),
+        R.filter((it) => it.Kodeverk === 'ICPC-2'),
+        R.filter(
+            (it) =>
+                it['Foreldrekodetekst'] === 'Diagnoser/sykdommer' || it['Foreldrekodetekst'] === 'Symptomer og plager',
+        ),
         R.filter((it) => it['Gyldig_til'] == null || !isBefore(it['Gyldig_til'], today)),
         R.map((it) => ({
             system: 'ICPC2',
-            code: it.Foreldrekode,
-            text: it.Foreldrekodetekst,
+            code: it.Kode,
+            text: it.Tekst_uten_lengdebegrensning,
         })),
     )
+
+
+    const icpc2ParentCodes = new Set(icpc2.map((it) => it.code))
 
     writeNodeJson('ICPC2', icpc2)
     writeKotlinCsv('ICPC2', icpc2)
 
     const icpc2b = R.pipe(
         rawIcpc2 as KoteEntry[],
-        R.groupBy((it) => it.Kodeverk),
-        R.prop('ICPC-2B'),
-        // "Sub-terms" in ICDC-2B has the value TERM, there are also ICD-10 nodes, we don't want these (probably).
-        R.filter((it) => it['Tilhørighet_i_ICPC_2B'] === 'TERM'),
+        R.filter((it) => it.Kodeverk === 'ICPC-2B'),
+        R.filter((it) => icpc2ParentCodes.has(it['Foreldrekode'])),
         R.filter((it) => it['Gyldig_til'] == null || !isBefore(it['Gyldig_til'], today)),
         R.map((it) => ({
             system: 'ICPC2B',

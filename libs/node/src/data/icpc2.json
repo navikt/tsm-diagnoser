@@ -261,11 +261,6 @@
     },
     {
         "system": "ICPC2",
-        "code": "A981",
-        "text": "Livmorhalsprøve"
-    },
-    {
-        "system": "ICPC2",
         "code": "A99",
         "text": "Helseproblem/sykdom ikke spesifisert/lokalisert"
     },
@@ -2001,11 +1996,6 @@
     },
     {
         "system": "ICPC2",
-        "code": "R33",
-        "text": "Mikrobiologisk/immunologisk prøve"
-    },
-    {
-        "system": "ICPC2",
         "code": "R71",
         "text": "Kikhoste"
     },
@@ -2743,6 +2733,11 @@
         "system": "ICPC2",
         "code": "U88",
         "text": "Glomerulonefritt/nefropati"
+    },
+    {
+        "system": "ICPC2",
+        "code": "U891",
+        "text": "Nyresvikt"
     },
     {
         "system": "ICPC2",

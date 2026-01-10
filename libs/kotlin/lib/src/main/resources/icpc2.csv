@@ -51,7 +51,6 @@ ICPC2#A96#Død/dødsfall IKA
 ICPC2#A97#Kontakt/undersøkelse for administrativt formål
 ICPC2#A98#Individforebyggende tiltak
 ICPC2#A981#Livmorhalsprøve
-ICPC2#A981#Livmorhalsprøve
 ICPC2#A99#Helseproblem/sykdom ikke spesifisert/lokalisert
 ICPC2#B02#Lymfeknuter forstørrede/smertefulle
 ICPC2#B04#Blod/blodsystemet symptomer/plager
@@ -399,7 +398,6 @@ ICPC2#R26#Engstelig for kreft i luftveiene
 ICPC2#R27#Engstelig for sykdom i luftveiene IKA
 ICPC2#R28#Redusert funksjonsevne pga luftveisproblem
 ICPC2#R29#Luftveiene symptomer/plager IKA
-ICPC2#R33#Mikrobiologisk/immunologisk prøve
 ICPC2#R71#Kikhoste
 ICPC2#R72#Streptokokkhals
 ICPC2#R73#Nesebyll
@@ -548,6 +546,7 @@ ICPC2#U79#Uspesifisert svulst i urinveiene
 ICPC2#U80#Skade i urinveiene
 ICPC2#U85#Medfødt feil i urinveiene
 ICPC2#U88#Glomerulonefritt/nefropati
+ICPC2#U891#Nyresvikt
 ICPC2#U90#Ortostatisk proteinuri
 ICPC2#U95#Stein i urinveiene
 ICPC2#U98#Unormal urinprøve IKA
