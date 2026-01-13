@@ -4,7 +4,6 @@ import no.nav.tsm.diagnoser.utils.CSVs
 import no.nav.tsm.diagnoser.utils.Load
 
 object ICPC2B : Diagnoseable() {
-
   override val OID = "2.16.578.1.12.4.1.1.7171"
 
   override val diagnosis: List<Diagnose> = Load.csv(CSVs.ICPC2B)
