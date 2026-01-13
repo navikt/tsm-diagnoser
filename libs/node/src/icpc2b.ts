@@ -8,6 +8,8 @@ export type ICPC2BDiagnosis = BaseEntry & {
     parent_text: string
 }
 
+export const ICPC2B_OID = '2.16.578.1.12.4.1.1.7171'
+
 export const ICPC2B = icpc2b.map((it) => ({ ...it, system: 'ICPC2B' })) satisfies ICPC2BDiagnosis[]
 
 export function getICPC2B(code: string): ICPC2BDiagnosis | null {
